@@ -30,7 +30,9 @@ public class BigNumber {
 //        int k = 2;
 //        String number = "1231234";
 //        int k = 3;
-        String number = "94177252841";
+//        String number = "94177252841";
+//        int k = 4;
+        String number = "4177252841";
         int k = 4;
         solution(number, k);
     }
