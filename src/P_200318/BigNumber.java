@@ -7,6 +7,7 @@ public class BigNumber {
         String answer = "";
         char[] num = number.toCharArray();
         char max = '0';
+
         int index = -1;
         StringBuilder an = new StringBuilder();
 
