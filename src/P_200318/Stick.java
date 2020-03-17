@@ -6,19 +6,19 @@ public class Stick {
         char[] nameChar = name.toCharArray();
 
         for (int i = 0; i < nameChar.length; i++) {
-            if ('Z' - nameChar[i] + 1 > nameChar[i] - 'A') {
-                System.out.println("거꾸로 : " + (nameChar[i] - 'A'));
-                answer += nameChar[i] - 'A';
-            } else if ('Z' - nameChar[i] + 1 < nameChar[i] - 'A') {
-                System.out.println("위로 : " + ('Z' - nameChar[i] + 1));
-                answer += 'Z' - nameChar[i] + 1;
-            } else {
-                System.out.println("같음 : " + ('Z' - nameChar[i] + 1));
-                answer += 'Z' - nameChar[i] + 1;
-            }
-
-//            int cnt = Math.min(nameChar[i]-'A', 'Z'-nameChar[i]+1);
-//            answer += cnt;
+//            if ('Z' - nameChar[i] + 1 > nameChar[i] - 'A') {
+//                System.out.println("거꾸로 : " + (nameChar[i] - 'A'));
+//                answer += nameChar[i] - 'A';
+//            } else if ('Z' - nameChar[i] + 1 < nameChar[i] - 'A') {
+//                System.out.println("위로 : " + ('Z' - nameChar[i] + 1));
+//                answer += 'Z' - nameChar[i] + 1;
+//            } else {
+//                System.out.println("같음 : " + ('Z' - nameChar[i] + 1));
+//                answer += 'Z' - nameChar[i] + 1;
+//            }
+//
+            int cnt = Math.min(nameChar[i]-'A', 'Z'-nameChar[i]+1);
+            answer += cnt;
         }
 
         int min = name.length() - 1;
