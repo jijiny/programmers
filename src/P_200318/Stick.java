@@ -16,7 +16,7 @@ public class Stick {
 //                System.out.println("같음 : " + ('Z' - nameChar[i] + 1));
 //                answer += 'Z' - nameChar[i] + 1;
 //            }
-//
+
             int cnt = Math.min(nameChar[i]-'A', 'Z'-nameChar[i]+1);
             answer += cnt;
         }
