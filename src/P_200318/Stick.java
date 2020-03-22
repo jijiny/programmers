@@ -65,15 +65,15 @@ public class Stick {
         }
         System.out.println(min);
         System.out.println(answer+min);
-        return answer;
+        return answer+min;
     }
 
     public static void main(String[] args) {
-//        String name = "JEROEN";
+        String name = "JEROEN";
 //        String name = "JAZ";
 //        String name = "AABAZ";
 //        String name = "AABAAAAAAABBB";
-        String name = "BAZZAAZ";
+//        String name = "BAZZAAZ";
 //        String name = "AABAB";
         solution(name);
     }
