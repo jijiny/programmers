@@ -59,7 +59,6 @@ public class PrimeNumberFinal {
                 break;
             }
         }
-
         if(count==0 && no != 0 && no != 1) {
             primeNo.add(no);
         }
