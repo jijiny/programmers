@@ -3,7 +3,7 @@ package P_200212;
 import java.util.*;
 
 public class RetirePlayer {
-    public String solution(String[] participant, String[] completion) {
+    public static String solution(String[] participant, String[] completion) {
         String answer = "";
 
         Map<String, Integer> part = new HashMap<String, Integer>();
@@ -23,5 +23,15 @@ public class RetirePlayer {
         }
 
         return answer;
+    }
+
+    public static void main(String[] args) {
+        String[] participant = {"leo", "kiki", "eden"};
+        String[] completion = {"eden","kiki"};
+//        String[] participant = {"marina", "josipa", "nikola", "vinko", "filipa"};
+//        String[] completion = {"josipa", "filipa", "marina", "nikola"};
+//        String[] participant = {"mislav", "stanko", "mislav", "ana"};
+//        String[] completion = {"stanko", "ana", "mislav"};
+        solution(participant, completion);
     }
 }
