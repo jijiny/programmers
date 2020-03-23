@@ -65,6 +65,7 @@ public class Stick {
         }
         System.out.println(min);
         System.out.println(answer+min);
+
         return answer+min;
     }
 
