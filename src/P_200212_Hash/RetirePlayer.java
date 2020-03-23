@@ -21,7 +21,6 @@ public class RetirePlayer {
                 answer = name;
             }
         }
-
         return answer;
     }
 
