@@ -21,6 +21,7 @@ public class HighestNo {
         for(int i=0; i<noString.length;i++) {
             answer += noString[i];
         }
+
         System.out.println(answer);
 
         return answer;
