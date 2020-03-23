@@ -19,13 +19,11 @@ public class HIndex {
         }
 
         System.out.println(answer);
-        System.out.println("맘낭물뮤ㅐ;ㄻ");
         return answer;
     }
 
     public static void main(String[] args) {
         int[] citations = {3, 0, 6, 1, 5};
-
         solution(citations);
     }
 }
