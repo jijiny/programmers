@@ -36,6 +36,7 @@ public class Top {
                 popCnt = 0;
             }
         }
+
         return answer;
     }
 
