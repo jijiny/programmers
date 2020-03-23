@@ -21,7 +21,6 @@ public class PhoneNo {
         String[] phone = {"119","97674223","1195524421"};
 //        String[] phone = {"123","456","789"};
 //        String[] phone = {"12","123","1235","567","88"};
-
         solution(phone);
     }
 }
