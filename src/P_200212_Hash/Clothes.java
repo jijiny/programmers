@@ -21,6 +21,7 @@ public class Clothes {
 
         answer -= 1;
         System.out.println(answer);
+
         return answer;
     }
 
