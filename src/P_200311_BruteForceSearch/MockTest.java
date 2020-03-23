@@ -56,6 +56,7 @@ public class MockTest {
         for(int i=0; i<answer.length; i++) {
             answer[i] = (int) answerList.get(i);
         }
+
         return answer;
     }
 
