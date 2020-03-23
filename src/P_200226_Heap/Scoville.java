@@ -25,6 +25,7 @@ public class Scoville {
             sQueue.offer(result);
             answer++;
         }
+
         return answer;
     }
 
