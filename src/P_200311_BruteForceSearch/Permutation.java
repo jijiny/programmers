@@ -10,6 +10,7 @@ public class Permutation {
             System.out.println("1 첫번째 perm " + i);
             perm(arr, 0, n, i);
         }
+
     }
 
     public static void perm(int[] arr, int depth, int n, int r) {
