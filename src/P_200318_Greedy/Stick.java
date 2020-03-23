@@ -1,4 +1,4 @@
-package P_200318;
+package P_200318_Greedy;
 
 public class Stick {
     public static int solution(String name) {

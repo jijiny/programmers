@@ -1,4 +1,4 @@
-package P_200325;
+package P_200325_DynamicProgramming;
 // 200323
 public class TileDecoration {
     public static long solution(int N) {

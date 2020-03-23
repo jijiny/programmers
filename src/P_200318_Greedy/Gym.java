@@ -1,4 +1,4 @@
-package P_200318;
+package P_200318_Greedy;
 
 import java.util.*;
 

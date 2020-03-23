@@ -1,4 +1,4 @@
-package P_200325;
+package P_200325_DynamicProgramming;
 
 // https://web2eye.tistory.com/163
 

@@ -1,6 +1,4 @@
-package P_200318;
-
-import java.util.*;
+package P_200318_Greedy;
 
 public class BigNumber {
     public static String solution(String number, int k) {

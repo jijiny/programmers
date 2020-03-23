@@ -1,4 +1,4 @@
-package P_200212;
+package P_200212_Hash;
 
 public class PhoneNo {
     public static boolean solution(String[] phone_book) {

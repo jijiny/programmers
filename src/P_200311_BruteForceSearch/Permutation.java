@@ -1,4 +1,4 @@
-package P_200311;
+package P_200311_BruteForceSearch;
 
 public class Permutation {
     public static void main(String[] args) {
