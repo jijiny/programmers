@@ -48,6 +48,7 @@ public class Gym {
                 answer++;
             }
         }
+
         System.out.println(reserveMap);
         System.out.println(answer);
 
