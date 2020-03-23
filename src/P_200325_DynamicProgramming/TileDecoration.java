@@ -15,7 +15,6 @@ public class TileDecoration {
         for(int i=0; i<=N; i++) {
             System.out.println(arr[i]);
         }
-
         answer = (arr[N-1]+arr[N])*2;
         System.out.println(answer);
 
