@@ -1,10 +1,10 @@
 package P_200325_DynamicProgramming;
+
 // 현석 코드
 public class IntegerTriangle2 {
     private static int[][] triangles = null;
 
     public static int solution(int[][] triangle) {
-
         int answer = 0;
         triangles = triangle;
 
@@ -15,12 +15,14 @@ public class IntegerTriangle2 {
     }
 
     public static int recursion(int i, int j) {
-
         //탈출조건
         if (i == 0) return triangles[i][j];
 
-        if (triangles[i][j] > triangles[i][j + 1]) triangles[i - 1][j] += triangles[i][j];
-        else triangles[i - 1][j] += triangles[i][j + 1];
+        if (triangles[i][j] > triangles[i][j + 1]) {
+            triangles[i - 1][j] += triangles[i][j];
+        } else {
+            triangles[i - 1][j] += triangles[i][j + 1];
+        }
 
         j += 1;
 
